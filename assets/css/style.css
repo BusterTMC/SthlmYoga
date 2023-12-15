@@ -78,3 +78,16 @@ footer {
   padding: 5%;
   color: rgb(174, 2, 174);
 }
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/*about file css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
