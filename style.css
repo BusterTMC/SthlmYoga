@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: darkgrey;
+}
+
+.main {
+    background: rgb(174, 2, 174);
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar ul li {
+    display: inline-flex;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+label {
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 2rem;
+    color: white;
+}
+
+.nav-bar ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
