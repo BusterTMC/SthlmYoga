@@ -5,9 +5,7 @@
 }
 
 body {
-    height: 600px;
-    width: 100%;
-    background-image: url(../images/bakgrundyoga.webp) no-repeat center center;
+    color: #f2f2f2;
 }
 
 .main {
@@ -90,4 +88,65 @@ footer {
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+}
+
+.heading {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.heading h1 {
+    font-size: 50px;
+    color: black;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.heading h1::after {
+    content:"";
+    position: absolute;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(174, 2, 174);
+}
+
+.heading p {
+    font-size: 18px;
+    color: #3a3a3a;
+    margin-bottom: 35px;
+}
+
+.cont {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-content {
+    flex: 1;
+}
+
+.about-content h2 {
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: #3a3a3a;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
 }
