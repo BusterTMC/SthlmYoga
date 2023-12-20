@@ -7,7 +7,7 @@
 }
 
 body {
-    color: darkgrey;
+    background-color: #e8f0fe;
 }
 
 .main {
@@ -92,6 +92,7 @@ footer {
     flex-direction: column;
     text-align: center;
     margin: 20px auto;
+    background-color: #e8f0fe;
 }
 
 .heading h1 {
@@ -148,6 +149,7 @@ footer {
 /*css for the time file*/
 .container-times {
     width: 100%;
+    background-color: #e8f0fe;
 }
 
 .container-times .row {
@@ -198,3 +200,99 @@ footer {
     color: black;
 }
 
+/* contact css */
+
+.contact {
+    min-height: 100vh;
+    background-color: #e8f0fe;
+    padding: 50px;
+    text-align: center;
+}
+
+.kontainer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.kontainer h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.contact-form {
+    text-align: left;
+}
+
+.contact-form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    background: none;
+    background-color: #f8f9fa;
+}
+
+input:focus
+textarea:focus {
+    outline: none;
+    box-shadow: 0 0 8px #bbb;
+}
+
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgb(174, 2, 174);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3 ease;
+}
+
+button:hover {
+    background-color: rgb(174, 2, 174);
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.contact-info i {
+    color: rgb(174, 2, 174);
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .kontainer{
+        padding: 20px;
+    }
+    .contact-wrapper{
+        grid-template-columns: 1fr;
+    }
+}
