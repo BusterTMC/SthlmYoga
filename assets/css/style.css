@@ -200,6 +200,11 @@ footer {
     color: black;
 }
 
+.content-times p {
+    font-size: 18px;
+    color: #333;
+}
+
 /* contact css */
 
 .contact {
