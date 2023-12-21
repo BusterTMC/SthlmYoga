@@ -300,4 +300,38 @@ button:hover {
     .contact-wrapper{
         grid-template-columns: 1fr;
     }
+    .nav-bar{
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    .content{
+        text-align: center;
+        padding: 0 20px 0 20px;
+    }
+    .section{
+        text-align: center;
+        padding: 0 20px 0 20px;
+    }
+    .heading{
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+    .heading h1{
+        width: inherit;
+    }
+    .about-content{
+        width: 100%;
+        text-align: center;
+    }
+    .content-card{
+        text-align: center;
+        padding: 0 20px 0 20px;
+    }
+    .content-card img {
+        column-count: 3;
+    }
 }
