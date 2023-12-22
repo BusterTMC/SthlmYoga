@@ -53,7 +53,7 @@ The live link can be found here - <https://code-institute-org.github.io/love-run
 
 ## Credits
 
-To help me with this project I too help from a few differetn youtbe videos and websites I will link them below.
+To help me with this project I took help from a few differetn youtbe videos and websites I will link them below.
 
 (https://www.youtube.com/watch?v=yU7jJ3NbPdA&t=321s&ab_channel=WebDevSimplified)
 (https://www.youtube.com/watch?v=d4ZSpPQ-f2U&ab_channel=WebMasterCampus)
